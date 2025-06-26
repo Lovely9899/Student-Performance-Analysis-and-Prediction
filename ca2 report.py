@@ -141,7 +141,7 @@ log_reg = LogisticRegression()
 log_reg.fit(X_train, y_train)
 y_pred = log_reg.predict(X_test)
 
-print("\n🔶 Logistic Regression Results:")
+print("\n Logistic Regression Results:")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 
